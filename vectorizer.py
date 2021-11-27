@@ -95,6 +95,7 @@ def get_word_sum(word):
 
     word_sum = 0
     latin_alphabet = list(string.ascii_letters)
+
     for char in trans_word:
         trans_char_number = latin_alphabet.index(char) + 1
         word_sum += trans_char_number
